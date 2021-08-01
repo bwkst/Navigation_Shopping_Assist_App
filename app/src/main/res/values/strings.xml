@@ -8,4 +8,9 @@
     <string name="b_end_market">退出超市导航</string>
     <string name="product_detail">商品详情</string>
     <string name="b_back">返回</string>
+    <string name="starting_point">当前位置</string>
+    <string name="b_take_photo">拍照识别</string>
+    <string name="destination">目的地位置</string>
+    <string name="b_voice_input">语音输入</string>
+    <string name="b_search">确认搜索</string>
 </resources>
