@@ -13,10 +13,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_135"
+        android:layout_height="@dimen/dp_90"
         android:orientation="vertical"
-        android:paddingTop="@dimen/dp_25"
-        android:paddingBottom="@dimen/dp_20">
+        android:paddingTop="@dimen/dp_15"
+        android:paddingBottom="@dimen/dp_10">
 
         <!--字(text)未设：动态-->
         <!--字体(font family)未设-->
@@ -25,17 +25,17 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/mall_direction"
-            android:height="@dimen/dp_90"
+            android:height="@dimen/dp_65"
             android:text="helloworld"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="@dimen/sp_64" />
+            android:textSize="@dimen/sp_48" />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_400"
+        android:layout_height="@dimen/dp_330"
         android:orientation="vertical">
 
         <!--地图-->
