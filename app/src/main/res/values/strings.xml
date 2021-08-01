@@ -6,4 +6,6 @@
     <string name="b_setting">调节与帮助</string>
     <string name="b_end_mall">退出商场导航</string>
     <string name="b_end_market">退出超市导航</string>
+    <string name="product_detail">商品详情</string>
+    <string name="b_back">返回</string>
 </resources>
