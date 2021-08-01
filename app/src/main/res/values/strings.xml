@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Demo</string>
+    <string name="app_name">商场导盲犬</string>
+    <string name="b_mall">商场内部导航</string>
+    <string name="b_market">超市内部导航</string>
+    <string name="b_product">超市商品识别</string>
+    <string name="b_setting">调节与帮助</string>
+    <string name="b_end_mall">退出商场导航</string>
+    <string name="b_end_market">退出超市导航</string>
 </resources>

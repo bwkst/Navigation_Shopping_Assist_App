@@ -1,9 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!--Linear Layout 完成设计-->
+<!--背景色设置为 #FFFFFF-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OutputMall">
+    tools:context=".ConfirmMall"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_10">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_135"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp_25"
+        android:paddingBottom="@dimen/dp_20">
+
+        <!--字(text)未设：动态-->
+        <!--字体(font family)未设-->
+        <!--字颜色暂设 #000000-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mall_direction"
+            android:height="@dimen/dp_90"
+            android:text="helloworld"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="@dimen/sp_64" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_400"
+        android:orientation="vertical">
+
+        <!--地图-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_80"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp_5"
+        android:paddingLeft="@dimen/dp_5"
+        android:paddingRight="@dimen/dp_5"
+        android:paddingBottom="@dimen/dp_5">
+
+        <!--RelativeLayout 为了按钮排版-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--按钮样式(background)未设 应存于drawable-->
+            <!--字体(font family)未设-->
+            <!--字颜色暂设 #000000-->
+            <Button
+                android:layout_width="@dimen/dp_140"
+                android:layout_height="match_parent"
+                android:id="@+id/b_end_mall"
+                android:text="@string/b_end_mall"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/sp_16"/>
+
+            <!--按钮样式(background)未设 应存于drawable-->
+            <!--字体(font family)未设-->
+            <!--字颜色暂设 #000000-->
+            <Button
+                android:layout_width="@dimen/dp_140"
+                android:layout_height="match_parent"
+                android:id="@+id/b_oml_setting"
+                android:text="@string/b_setting"
+                android:layout_alignParentRight="true"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/sp_16"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
