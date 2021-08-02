@@ -56,7 +56,7 @@
         <!--字体(font family)未设-->
         <!--字颜色暂设 #000000-->
         <TextView
-            android:id="@+id/result"
+            android:id="@+id/mall_result"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:height="@dimen/dp_30"
