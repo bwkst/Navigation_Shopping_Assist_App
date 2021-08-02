@@ -13,4 +13,8 @@
     <string name="destination">目的地位置</string>
     <string name="b_voice_input">语音输入</string>
     <string name="b_search">确认搜索</string>
+    <string name="result">匹配结果</string>
+    <string name="from">从：</string>
+    <string name="to">到：</string>
+    <string name="confirm">确认</string>
 </resources>

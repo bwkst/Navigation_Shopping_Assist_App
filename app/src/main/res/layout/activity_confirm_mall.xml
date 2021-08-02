@@ -9,6 +9,347 @@
     tools:context=".ConfirmMall"
     android:background="#FFFFFF"
     android:orientation="vertical"
-    android:padding="@dimen/dp_70">
+    android:padding="@dimen/dp_10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp_5">
+
+        <!--字体(font family)未设-->
+        <!--字颜色暂设 #000000-->
+        <TextView
+            android:id="@+id/confirm_mall_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="@dimen/dp_35"
+            android:text="@string/b_mall"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="@dimen/sp_24" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_5"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dp_4">
+
+        <!--分割线-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_75"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp_40"
+        android:paddingRight="@dimen/dp_40"
+        android:paddingLeft="@dimen/dp_40">
+
+        <!--字体(font family)未设-->
+        <!--字颜色暂设 #000000-->
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="@dimen/dp_30"
+            android:text="@string/result"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="@dimen/sp_20" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_5"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dp_4"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingRight="@dimen/dp_15">
+
+        <!--分割线-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_150"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp_50"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_50"
+        android:paddingBottom="@dimen/dp_15">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:paddingBottom="@dimen/dp_10">
+
+            <!--字体(font family)未设-->
+            <!--字颜色暂设 #000000-->
+            <TextView
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="match_parent"
+                android:id="@+id/confirm_mall_from_1"
+                android:height="@dimen/dp_25"
+                android:text="@string/from"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/sp_18"/>
+
+            <!--字(text)未设：动态-->
+            <!--字体(font family)未设-->
+            <!--字颜色暂设 #000000-->
+            <TextView
+                android:layout_width="@dimen/dp_180"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:id="@+id/confirm_mall_starting_point_1"
+                android:height="@dimen/dp_30"
+                android:text="helloworld"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/sp_18"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:paddingBottom="@dimen/dp_10">
+
+            <!--字体(font family)未设-->
+            <!--字颜色暂设 #000000-->
+            <TextView
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="match_parent"
+                android:id="@+id/confirm_mall_to_1"
+                android:height="@dimen/dp_30"
+                android:text="@string/to"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/sp_18"/>
+
+            <!--字(text)未设：动态-->
+            <!--字体(font family)未设-->
+            <!--字颜色暂设 #000000-->
+            <TextView
+                android:layout_width="@dimen/dp_180"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:id="@+id/confirm_mall_destination_1"
+                android:height="@dimen/dp_25"
+                android:text="helloworld"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/sp_18"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:paddingRight="@dimen/dp_80"
+            android:paddingLeft="@dimen/dp_80">
+
+            <!--字体(font family)未设-->
+            <!--字颜色暂设 #000000-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/confirm_mall_1_button"
+                android:height="@dimen/dp_50"
+                android:text="@string/confirm"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/sp_16"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_15"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dp_9"
+        android:paddingTop="@dimen/dp_5"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingRight="@dimen/dp_15">
+
+        <!--分割线-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_150"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp_50"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_50"
+        android:paddingBottom="@dimen/dp_15">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:paddingBottom="@dimen/dp_10">
+
+            <!--字体(font family)未设-->
+            <!--字颜色暂设 #000000-->
+            <TextView
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="match_parent"
+                android:id="@+id/confirm_mall_from_2"
+                android:height="@dimen/dp_25"
+                android:text="@string/from"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/sp_18"/>
+
+            <!--字(text)未设：动态-->
+            <!--字体(font family)未设-->
+            <!--字颜色暂设 #000000-->
+            <TextView
+                android:layout_width="@dimen/dp_180"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:id="@+id/confirm_mall_starting_point_2"
+                android:height="@dimen/dp_30"
+                android:text="helloworld"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/sp_18"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:paddingBottom="@dimen/dp_10">
+
+            <!--字体(font family)未设-->
+            <!--字颜色暂设 #000000-->
+            <TextView
+                android:id="@+id/confirm_mall_to_2"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="match_parent"
+                android:height="@dimen/dp_30"
+                android:text="@string/to"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/sp_18" />
+
+            <!--字(text)未设：动态-->
+            <!--字体(font family)未设-->
+            <!--字颜色暂设 #000000-->
+            <TextView
+                android:layout_width="@dimen/dp_180"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:id="@+id/confirm_mall_destination_2"
+                android:height="@dimen/dp_25"
+                android:text="helloworld"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/sp_18"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:paddingRight="@dimen/dp_80"
+            android:paddingLeft="@dimen/dp_80">
+
+            <!--字体(font family)未设-->
+            <!--字颜色暂设 #000000-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/confirm_mall_2_button"
+                android:height="@dimen/dp_50"
+                android:text="@string/confirm"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/sp_16"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_10"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dp_4"
+        android:paddingTop="@dimen/dp_5"
+        android:paddingLeft="@dimen/dp_15"
+        android:paddingRight="@dimen/dp_15">
+
+        <!--分割线-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_90"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp_15"
+        android:paddingLeft="@dimen/dp_25"
+        android:paddingRight="@dimen/dp_25"
+        android:paddingBottom="@dimen/dp_10">
+
+        <!--RelativeLayout 为了按钮排版-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--按钮样式(background)未设 应存于drawable-->
+            <!--字体(font family)未设-->
+            <!--字颜色暂设 #000000-->
+            <Button
+                android:layout_width="@dimen/dp_120"
+                android:layout_height="match_parent"
+                android:id="@+id/b_cml_back"
+                android:text="@string/b_back"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/sp_16"/>
+
+            <!--按钮样式(background)未设 应存于drawable-->
+            <!--字体(font family)未设-->
+            <!--字颜色暂设 #000000-->
+            <Button
+                android:layout_width="@dimen/dp_120"
+                android:layout_height="match_parent"
+                android:id="@+id/b_cml_setting"
+                android:text="@string/b_setting"
+                android:layout_alignParentRight="true"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/sp_16"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
 
 </LinearLayout>
