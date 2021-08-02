@@ -35,7 +35,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_330"
+        android:layout_height="@dimen/dp_400"
         android:orientation="vertical">
 
         <!--地图-->
