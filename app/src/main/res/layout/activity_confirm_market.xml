@@ -333,7 +333,7 @@
             <Button
                 android:layout_width="@dimen/dp_120"
                 android:layout_height="match_parent"
-                android:id="@+id/b_cmk_back"
+                android:id="@+id/b_cmt_back"
                 android:text="@string/b_back"
                 android:textAlignment="center"
                 android:textColor="#000000"
@@ -345,7 +345,7 @@
             <Button
                 android:layout_width="@dimen/dp_120"
                 android:layout_height="match_parent"
-                android:id="@+id/b_cmk_setting"
+                android:id="@+id/b_cmt_setting"
                 android:text="@string/b_setting"
                 android:layout_alignParentRight="true"
                 android:textAlignment="center"
