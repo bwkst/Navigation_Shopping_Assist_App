@@ -17,4 +17,17 @@
     <string name="from">从：</string>
     <string name="to">到：</string>
     <string name="confirm">确认</string>
+    <string name="setting">调节</string>
+    <string name="speed">语速：</string>
+    <string name="slow_word">慢</string>
+    <string name="mid_word">中</string>
+    <string name="fast_word">快</string>
+    <string name="voice_output">语音：</string>
+    <string name="woman_word">标准女声</string>
+    <string name="man_word">标准男声</string>
+    <string name="help">帮助</string>
+    <string name="b_fail_to_read">无法识别</string>
+    <string name="b_suggestion">反馈建议</string>
+    <string name="b_customer_service">联系客服</string>
+    <string name="b_update">版本与更新</string>
 </resources>
