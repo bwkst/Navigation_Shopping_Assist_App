@@ -22,6 +22,14 @@ public class ShoppingMall extends AppCompatActivity {
 
         MLGTCamera = (Button)findViewById(R.id.b_mall_take_photo); //定位Button: b_mall_take_photo
         //功能未做-不会做
+        MLGTCamera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent();
+                intent.setClass(ShoppingMall.this,Map.class); //跳转至Map
+                startActivity(intent);
+            }
+        });
 
         MLGTVoiceKeyboard = (Button)findViewById(R.id.b_mall_voice_input); //定位Button: b_mall_voice_input
         //功能未做-不会做
