@@ -61,9 +61,11 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_45"
             android:height="@dimen/dp_25"
+            android:drawableLeft="@drawable/point"
+            android:paddingLeft="@dimen/dp_20"
             android:paddingBottom="@dimen/dp_20"
             android:text="@string/starting_point"
-            android:textAlignment="center"
+            android:textAlignment="textStart"
             android:textColor="#000000"
             android:textSize="@dimen/sp_20" />
 
@@ -81,6 +83,7 @@
                 android:layout_width="@dimen/dp_200"
                 android:layout_height="match_parent"
                 android:height="@dimen/dp_170"
+                android:background="@drawable/b_product_2"
                 android:text="helloworld"
                 android:textAlignment="center"
                 android:textColor="#000000"
@@ -94,6 +97,7 @@
                 android:layout_width="@dimen/dp_100"
                 android:layout_height="match_parent"
                 android:layout_alignParentRight="true"
+                android:background="@drawable/b_product"
                 android:text="@string/b_take_photo"
                 android:textAlignment="center"
                 android:textColor="#000000"
@@ -120,8 +124,10 @@
             android:layout_height="@dimen/dp_45"
             android:height="@dimen/dp_25"
             android:paddingBottom="@dimen/dp_20"
+            android:paddingLeft="@dimen/dp_20"
+            android:drawableLeft="@drawable/point2"
             android:text="@string/destination"
-            android:textAlignment="center"
+            android:textAlignment="textStart"
             android:textColor="#000000"
             android:textSize="@dimen/sp_20" />
 
@@ -139,6 +145,7 @@
                 android:layout_width="@dimen/dp_200"
                 android:layout_height="match_parent"
                 android:height="@dimen/dp_170"
+                android:background="@drawable/b_product_2"
                 android:text="helloworld"
                 android:textAlignment="center"
                 android:textColor="#000000"
@@ -152,6 +159,7 @@
                 android:layout_width="@dimen/dp_100"
                 android:layout_height="match_parent"
                 android:layout_alignParentRight="true"
+                android:background="@drawable/b_product"
                 android:text="@string/b_voice_input"
                 android:textAlignment="center"
                 android:textColor="#000000"
@@ -179,13 +187,14 @@
             <!--字体(font family)未设-->
             <!--字颜色暂设 #000000-->
             <Button
+                android:id="@+id/b_market_back"
                 android:layout_width="@dimen/dp_120"
                 android:layout_height="match_parent"
-                android:id="@+id/b_market_back"
+                android:background="@drawable/b_product"
                 android:text="@string/b_back"
                 android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="@dimen/sp_16"/>
+                android:textSize="@dimen/sp_16" />
 
             <!--按钮样式(background)未设 应存于drawable-->
             <!--字体(font family)未设-->
@@ -196,6 +205,7 @@
                 android:id="@+id/b_market_search"
                 android:text="@string/b_search"
                 android:layout_alignParentRight="true"
+                android:background="@drawable/b_product"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="@dimen/sp_16"/>
@@ -220,6 +230,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/b_market_setting"
+            android:background="@drawable/b_product"
             android:text="@string/b_setting"
             android:textAlignment="center"
             android:textColor="#000000"

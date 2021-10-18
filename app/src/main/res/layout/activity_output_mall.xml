@@ -60,26 +60,28 @@
             <!--字体(font family)未设-->
             <!--字颜色暂设 #000000-->
             <Button
+                android:id="@+id/b_end_mall"
                 android:layout_width="@dimen/dp_140"
                 android:layout_height="match_parent"
-                android:id="@+id/b_end_mall"
+                android:background="@drawable/b_product"
                 android:text="@string/b_end_mall"
                 android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="@dimen/sp_16"/>
+                android:textSize="@dimen/sp_16" />
 
             <!--按钮样式(background)未设 应存于drawable-->
             <!--字体(font family)未设-->
             <!--字颜色暂设 #000000-->
             <Button
+                android:id="@+id/b_oml_setting"
                 android:layout_width="@dimen/dp_140"
                 android:layout_height="match_parent"
-                android:id="@+id/b_oml_setting"
-                android:text="@string/b_setting"
                 android:layout_alignParentRight="true"
+                android:background="@drawable/b_product"
+                android:text="@string/b_setting"
                 android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="@dimen/sp_16"/>
+                android:textSize="@dimen/sp_16" />
 
         </RelativeLayout>
 

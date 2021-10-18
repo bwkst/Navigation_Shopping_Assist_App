@@ -79,7 +79,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_1"
-            android:background="#000000"/>
+            android:background="#989898"/>
 
     </LinearLayout>
 
@@ -93,37 +93,6 @@
         android:paddingBottom="@dimen/dp_15">
 
         <!--RelativeLayout 为了按钮排版-->
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dp_40"
-            android:paddingBottom="@dimen/dp_10">
-
-            <!--字体(font family)未设-->
-            <!--字颜色暂设 #000000-->
-            <TextView
-                android:layout_width="@dimen/dp_40"
-                android:layout_height="match_parent"
-                android:id="@+id/confirm_mall_from_1"
-                android:height="@dimen/dp_25"
-                android:text="@string/from"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="@dimen/sp_18"/>
-
-            <!--字(text)未设：动态-->
-            <!--字体(font family)未设-->
-            <!--字颜色暂设 #000000-->
-            <TextView
-                android:layout_width="@dimen/dp_180"
-                android:layout_height="match_parent"
-                android:layout_alignParentRight="true"
-                android:id="@+id/confirm_mall_starting_point_1"
-                android:height="@dimen/dp_30"
-                android:text="helloworld"
-                android:textAlignment="center"
-                android:textColor="#000000"
-                android:textSize="@dimen/sp_18"/>
-        </RelativeLayout>
 
         <!--RelativeLayout 为了按钮排版-->
         <RelativeLayout
@@ -134,14 +103,48 @@
             <!--字体(font family)未设-->
             <!--字颜色暂设 #000000-->
             <TextView
-                android:layout_width="@dimen/dp_40"
+                android:id="@+id/confirm_mall_from_1"
+                android:layout_width="@dimen/dp_50"
                 android:layout_height="match_parent"
-                android:id="@+id/confirm_mall_to_1"
+                android:height="@dimen/dp_25"
+                android:drawableLeft="@drawable/ring1"
+                android:text="@string/from"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/sp_18" />
+
+            <!--字(text)未设：动态-->
+            <!--字体(font family)未设-->
+            <!--字颜色暂设 #000000-->
+            <TextView
+                android:id="@+id/confirm_mall_starting_point_1"
+                android:layout_width="@dimen/dp_180"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
                 android:height="@dimen/dp_30"
+                android:text="helloworld"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/sp_18" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:paddingBottom="@dimen/dp_10">
+
+            <!--字体(font family)未设-->
+            <!--字颜色暂设 #000000-->
+            <TextView
+                android:id="@+id/confirm_mall_to_1"
+                android:layout_width="@dimen/dp_50"
+                android:layout_height="match_parent"
+                android:height="@dimen/dp_30"
+                android:drawableLeft="@drawable/ring2"
                 android:text="@string/to"
                 android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="@dimen/sp_18"/>
+                android:textSize="@dimen/sp_18" />
 
             <!--字(text)未设：动态-->
             <!--字体(font family)未设-->
@@ -167,14 +170,15 @@
             <!--字体(font family)未设-->
             <!--字颜色暂设 #000000-->
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
                 android:id="@+id/b_confirm_mall_1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_45"
                 android:height="@dimen/dp_50"
+                android:background="@drawable/b_product_3"
                 android:text="@string/confirm"
                 android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="@dimen/sp_16"/>
+                android:textSize="@dimen/sp_16" />
 
         </RelativeLayout>
 
@@ -194,7 +198,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_1"
-            android:background="#000000"/>
+            android:background="#989898"/>
 
     </LinearLayout>
 
@@ -216,10 +220,11 @@
             <!--字体(font family)未设-->
             <!--字颜色暂设 #000000-->
             <TextView
-                android:layout_width="@dimen/dp_40"
+                android:layout_width="@dimen/dp_50"
                 android:layout_height="match_parent"
                 android:id="@+id/confirm_mall_from_2"
                 android:height="@dimen/dp_25"
+                android:drawableLeft="@drawable/ring1"
                 android:text="@string/from"
                 android:textAlignment="center"
                 android:textColor="#000000"
@@ -250,9 +255,10 @@
             <!--字颜色暂设 #000000-->
             <TextView
                 android:id="@+id/confirm_mall_to_2"
-                android:layout_width="@dimen/dp_40"
+                android:layout_width="@dimen/dp_50"
                 android:layout_height="match_parent"
                 android:height="@dimen/dp_30"
+                android:drawableLeft="@drawable/ring2"
                 android:text="@string/to"
                 android:textAlignment="center"
                 android:textColor="#000000"
@@ -282,14 +288,15 @@
             <!--字体(font family)未设-->
             <!--字颜色暂设 #000000-->
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
                 android:id="@+id/b_confirm_mall_2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_45"
                 android:height="@dimen/dp_50"
+                android:background="@drawable/b_product_3"
                 android:text="@string/confirm"
                 android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="@dimen/sp_16"/>
+                android:textSize="@dimen/sp_16" />
 
         </RelativeLayout>
 
@@ -309,7 +316,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_1"
-            android:background="#000000"/>
+            android:background="#989898"/>
 
     </LinearLayout>
 
@@ -331,26 +338,28 @@
             <!--字体(font family)未设-->
             <!--字颜色暂设 #000000-->
             <Button
+                android:id="@+id/b_cml_back"
                 android:layout_width="@dimen/dp_120"
                 android:layout_height="match_parent"
-                android:id="@+id/b_cml_back"
+                android:background="@drawable/b_product"
                 android:text="@string/b_back"
                 android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="@dimen/sp_16"/>
+                android:textSize="@dimen/sp_16" />
 
             <!--按钮样式(background)未设 应存于drawable-->
             <!--字体(font family)未设-->
             <!--字颜色暂设 #000000-->
             <Button
+                android:id="@+id/b_cml_setting"
                 android:layout_width="@dimen/dp_120"
                 android:layout_height="match_parent"
-                android:id="@+id/b_cml_setting"
-                android:text="@string/b_setting"
                 android:layout_alignParentRight="true"
+                android:background="@drawable/b_product"
+                android:text="@string/b_setting"
                 android:textAlignment="center"
                 android:textColor="#000000"
-                android:textSize="@dimen/sp_16"/>
+                android:textSize="@dimen/sp_16" />
 
         </RelativeLayout>
 

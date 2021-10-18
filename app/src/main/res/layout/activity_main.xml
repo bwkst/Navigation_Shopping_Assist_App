@@ -27,6 +27,7 @@
             android:id="@+id/app_name"
             android:height="@dimen/dp_70"
             android:text="@string/app_name"
+            android:fontFamily=""
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="@dimen/sp_48"/>
@@ -41,17 +42,18 @@
         android:paddingRight="@dimen/dp_30"
         android:paddingLeft="@dimen/dp_30">
 
-        <!--按钮样式(background)未设 应存于drawable-->
+        <!--按钮样式(background)存于drawable,本页按钮均沿袭此样式-->
         <!--字体(font family)未设-->
         <!--字颜色暂设 #000000-->
         <Button
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_60"
             android:id="@+id/b_mall"
+            android:background="@drawable/b_mall"
             android:text="@string/b_mall"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="@dimen/sp_28"/>
+            android:textSize="@dimen/sp_25"/>
 
     </LinearLayout>
 
@@ -70,10 +72,11 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_60"
             android:id="@+id/b_market"
+            android:background="@drawable/b_mall"
             android:text="@string/b_market"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="@dimen/sp_28"/>
+            android:textSize="@dimen/sp_25"/>
 
     </LinearLayout>
 
@@ -92,10 +95,11 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_60"
             android:id="@+id/b_product"
+            android:background="@drawable/b_mall"
             android:text="@string/b_product"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="@dimen/sp_28"/>
+            android:textSize="@dimen/sp_25"/>
 
     </LinearLayout>
 
@@ -114,10 +118,12 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_60"
             android:id="@+id/b_setting"
+            android:background="@drawable/b_mall"
             android:text="@string/b_setting"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="@dimen/sp_28"/>
+            android:textSize="@dimen/sp_25"/>
+
 
     </LinearLayout>
 

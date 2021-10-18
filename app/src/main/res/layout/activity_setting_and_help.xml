@@ -80,7 +80,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_1"
-            android:background="#000000"/>
+            android:background="#989898"/>
 
     </LinearLayout>
 
@@ -269,7 +269,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_1"
-            android:background="#000000"/>
+            android:background="#989898"/>
 
     </LinearLayout>
 
@@ -308,7 +308,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_1"
-            android:background="#000000"/>
+            android:background="#989898"/>
 
     </LinearLayout>
 
@@ -328,6 +328,7 @@
             android:layout_height="match_parent"
             android:id="@+id/b_fail_to_read"
             android:text="@string/b_fail_to_read"
+            android:background="@drawable/b_product_3"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="@dimen/sp_20"/>
@@ -349,6 +350,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/b_suggestion"
+            android:background="@drawable/b_product_3"
             android:text="@string/b_suggestion"
             android:textAlignment="center"
             android:textColor="#000000"
@@ -371,6 +373,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/b_customer_service"
+            android:background="@drawable/b_product_3"
             android:text="@string/b_customer_service"
             android:textAlignment="center"
             android:textColor="#000000"
@@ -393,6 +396,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/b_update"
+            android:background="@drawable/b_product_3"
             android:text="@string/b_update"
             android:textAlignment="center"
             android:textColor="#000000"
@@ -413,7 +417,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_1"
-            android:background="#000000"/>
+            android:background="#989898"/>
 
     </LinearLayout>
 
@@ -433,6 +437,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/b_setting_back"
+            android:background="@drawable/b_product_3"
             android:text="@string/b_back"
             android:textAlignment="center"
             android:textColor="#000000"
