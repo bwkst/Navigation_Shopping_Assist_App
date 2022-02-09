@@ -1,16 +1,15 @@
 package com.example.demo;
 
+import android.Manifest;
+import android.content.pm.PackageManager;
+import android.os.Bundle;
+import android.widget.TextView;
+import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
-
-import android.Manifest;
-import android.content.pm.PackageManager;
-import android.location.Location;
-import android.os.Bundle;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.baidu.location.BDAbstractLocationListener;
 import com.baidu.location.BDLocation;
@@ -18,11 +17,7 @@ import com.baidu.location.LocationClient;
 import com.baidu.location.LocationClientOption;
 import com.baidu.mapapi.SDKInitializer;
 import com.baidu.mapapi.map.BaiduMap;
-import com.baidu.mapapi.map.MapStatusUpdate;
-import com.baidu.mapapi.map.MapStatusUpdateFactory;
 import com.baidu.mapapi.map.MapView;
-import com.baidu.mapapi.map.MyLocationData;
-import com.baidu.mapapi.model.LatLng;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,7 +46,7 @@ public class Map extends AppCompatActivity {
         mBaiduMap.setMyLocationEnabled(true);
         mBaiduMap.setIndoorEnable(true);
 
-        List<String> permissionList = new ArrayList<String>();
+        List<String> permissionList = new ArrayList<>();
         if(ContextCompat.checkSelfPermission(Map.this,Manifest.permission.ACCESS_FINE_LOCATION)!= PackageManager.PERMISSION_GRANTED){
             permissionList.add(Manifest.permission.ACCESS_FINE_LOCATION);
         }
@@ -62,7 +57,7 @@ public class Map extends AppCompatActivity {
             permissionList.add(Manifest.permission.WRITE_EXTERNAL_STORAGE);
         }
         if(!permissionList.isEmpty()){
-            String [] permissions = permissionList.toArray(new String[permissionList.size()]);
+            String [] permissions = permissionList.toArray(new String[0]);
             ActivityCompat.requestPermissions(Map.this,permissions,1);
         }
         else{
@@ -73,22 +68,20 @@ public class Map extends AppCompatActivity {
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        switch (requestCode) {
-            case 1:
-                if (grantResults.length > 0) {
-                    for (int result : grantResults) {
-                        if (result != PackageManager.PERMISSION_GRANTED) {
-                            Toast.makeText(this, "必须同意所有权限", Toast.LENGTH_SHORT).show();
-                            finish();
-                            return;
-                        }
+        if (requestCode == 1) {
+            if (grantResults.length > 0) {
+                for (int result : grantResults) {
+                    if (result != PackageManager.PERMISSION_GRANTED) {
+                        Toast.makeText(this, "必须同意所有权限", Toast.LENGTH_SHORT).show();
+                        finish();
+                        return;
                     }
-                    requestLocation();
-                }else{
-                    Toast.makeText(this,"发生未知错误",Toast.LENGTH_SHORT).show();
-                    finish();
                 }
-                break;
+                requestLocation();
+            } else {
+                Toast.makeText(this, "发生未知错误", Toast.LENGTH_SHORT).show();
+                finish();
+            }
         }
     }
 
@@ -110,7 +103,7 @@ public class Map extends AppCompatActivity {
         mLocationClient.setLocOption(option);
     }
 
-    private class MyLocationListener extends BDAbstractLocationListener{
+    private static class MyLocationListener extends BDAbstractLocationListener{
         @Override
         public void onReceiveLocation(BDLocation location) {
         }
