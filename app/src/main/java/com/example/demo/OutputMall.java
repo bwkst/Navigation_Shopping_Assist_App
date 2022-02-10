@@ -14,7 +14,7 @@ public class OutputMall extends AppCompatActivity {
         setContentView(R.layout.activity_output_mall);
 
         //Output Mall -> Go To Page: MainActivity
-        Button OMLGTMainPage = (Button) findViewById(R.id.b_end_mall); //定位Button: b_end_mall
+        Button OMLGTMainPage = findViewById(R.id.b_end_mall); //定位Button: b_end_mall
         OMLGTMainPage.setOnClickListener(v -> {
             Intent intent=new Intent();
             intent.setClass(OutputMall.this,MainActivity.class); //跳转至MainActivity
@@ -22,7 +22,7 @@ public class OutputMall extends AppCompatActivity {
         });
 
         //Output Mall -> Go To Page: Setting
-        Button OMLGTSettingPage = (Button) findViewById(R.id.b_oml_setting); //定位Button: b_oml_setting
+        Button OMLGTSettingPage = findViewById(R.id.b_oml_setting); //定位Button: b_oml_setting
         OMLGTSettingPage.setOnClickListener(v -> {
             Intent intent=new Intent();
             intent.setClass(OutputMall.this,SettingAndHelp.class); //跳转至SettingAndHelp

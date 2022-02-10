@@ -14,7 +14,7 @@ public class Product extends AppCompatActivity {
         setContentView(R.layout.activity_product);
 
         //Product -> Go To Page: MainActivity
-        Button PGTMainPage = (Button) findViewById(R.id.b_product_back); //定位Button: b_product_back
+        Button PGTMainPage = findViewById(R.id.b_product_back); //定位Button: b_product_back
         PGTMainPage.setOnClickListener(v -> {
             Intent intent=new Intent();
             intent.setClass(Product.this,MainActivity.class); //跳转至MainActivity
@@ -22,7 +22,7 @@ public class Product extends AppCompatActivity {
         });
 
         //Product -> Go To Page: Setting
-        Button PGTSettingPage = (Button) findViewById(R.id.b_product_setting); //定位Button: b_product_setting
+        Button PGTSettingPage = findViewById(R.id.b_product_setting); //定位Button: b_product_setting
         PGTSettingPage.setOnClickListener(v -> {
             Intent intent=new Intent();
             intent.setClass(Product.this,SettingAndHelp.class); //跳转至SettingAndHelp

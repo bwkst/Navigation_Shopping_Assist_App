@@ -14,7 +14,7 @@ public class ShoppingMall extends AppCompatActivity {
         setContentView(R.layout.activity_shopping_mall);
 
         //ShoppingMall -> 打开相机
-        Button MLGTCamera = (Button) findViewById(R.id.b_mall_take_photo); //定位Button: b_mall_take_photo
+        Button MLGTCamera = findViewById(R.id.b_mall_take_photo); //定位Button: b_mall_take_photo
         //功能未做-不会做
         MLGTCamera.setOnClickListener(v -> {
             Intent intent=new Intent();
@@ -23,11 +23,11 @@ public class ShoppingMall extends AppCompatActivity {
         });
 
         //ShoppingMall -> 打开语音输入键盘
-        Button MLGTVoiceKeyboard = (Button) findViewById(R.id.b_mall_voice_input); //定位Button: b_mall_voice_input
+        Button MLGTVoiceKeyboard = findViewById(R.id.b_mall_voice_input); //定位Button: b_mall_voice_input
         //功能未做-不会做
 
         //ShoppingMall -> Go To Page: MainActivity
-        Button MLGTMainPage = (Button) findViewById(R.id.b_mall_back); //定位Button: b_mall_back
+        Button MLGTMainPage = findViewById(R.id.b_mall_back); //定位Button: b_mall_back
         MLGTMainPage.setOnClickListener(v -> {
             Intent intent=new Intent();
             intent.setClass(ShoppingMall.this,MainActivity.class); //跳转至MainActivity
@@ -35,7 +35,7 @@ public class ShoppingMall extends AppCompatActivity {
         });
 
         //ShoppingMall -> 取当前位置+目的地位置输入 -> 提交后台 -> Go To Page: ConfirmMall
-        Button MLGTConfirmMallPage = (Button) findViewById(R.id.b_mall_search); //定位Button: b_mall_search
+        Button MLGTConfirmMallPage = findViewById(R.id.b_mall_search); //定位Button: b_mall_search
         //功能未做: 取当前位置+目的地位置输入 -> 提交后台
         MLGTConfirmMallPage.setOnClickListener(v -> {
             Intent intent=new Intent();
@@ -44,7 +44,7 @@ public class ShoppingMall extends AppCompatActivity {
         });
 
         //ShoppingMall -> Go To Page: Setting
-        Button MLGTSettingPage = (Button) findViewById(R.id.b_mall_setting); //定位Button: b_mall_setting
+        Button MLGTSettingPage = findViewById(R.id.b_mall_setting); //定位Button: b_mall_setting
         MLGTSettingPage.setOnClickListener(v -> {
             Intent intent=new Intent();
             intent.setClass(ShoppingMall.this,SettingAndHelp.class); //跳转至SettingAndHelp

@@ -14,7 +14,7 @@ public class OutputMarket extends AppCompatActivity {
         setContentView(R.layout.activity_output_market);
 
         //Output Market -> Go To Page: MainActivity
-        Button OMTGTMainPage = (Button) findViewById(R.id.b_end_market); //定位Button: b_end_market
+        Button OMTGTMainPage = findViewById(R.id.b_end_market); //定位Button: b_end_market
         OMTGTMainPage.setOnClickListener(v -> {
             Intent intent=new Intent();
             intent.setClass(OutputMarket.this,MainActivity.class); //跳转至MainActivity
@@ -22,7 +22,7 @@ public class OutputMarket extends AppCompatActivity {
         });
 
         //Output Market -> Go To Page: Setting
-        Button OMTGTSettingPage = (Button) findViewById(R.id.b_omt_setting); //定位Button: b_omt_setting
+        Button OMTGTSettingPage = findViewById(R.id.b_omt_setting); //定位Button: b_omt_setting
         OMTGTSettingPage.setOnClickListener(v -> {
             Intent intent=new Intent();
             intent.setClass(OutputMarket.this,SettingAndHelp.class); //跳转至SettingAndHelp

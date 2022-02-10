@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //Go To Page: ShoppingMall
-        Button GTMallPage = (Button) findViewById(R.id.b_mall); //定位Button: b_mall
+        Button GTMallPage = findViewById(R.id.b_mall); //定位Button: b_mall
         GTMallPage.setOnClickListener(v -> {
             Intent intent=new Intent();
             intent.setClass(MainActivity.this,ShoppingMall.class); //跳转至ShoppingMall
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Go To Page: Supermarket
-        Button GTMarketPage = (Button) findViewById(R.id.b_market); //定位Button: b_market
+        Button GTMarketPage = findViewById(R.id.b_market); //定位Button: b_market
         GTMarketPage.setOnClickListener(v -> {
             Intent intent=new Intent();
             intent.setClass(MainActivity.this,Supermarket.class); //跳转至Supermarket
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Go To Page: Product
-        Button GTProductPage = (Button) findViewById(R.id.b_product); //定位Button: b_product
+        Button GTProductPage = findViewById(R.id.b_product); //定位Button: b_product
         GTProductPage.setOnClickListener(v -> {
             Intent intent=new Intent();
             intent.setClass(MainActivity.this,Product.class); //跳转至Product
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Go To Page: Setting
-        Button GTSettingPage = (Button) findViewById(R.id.b_setting); //定位Button: b_setting
+        Button GTSettingPage = findViewById(R.id.b_setting); //定位Button: b_setting
         GTSettingPage.setOnClickListener(v -> {
             Intent intent=new Intent();
             intent.setClass(MainActivity.this,SettingAndHelp.class); //跳转至SettingAndHelp
