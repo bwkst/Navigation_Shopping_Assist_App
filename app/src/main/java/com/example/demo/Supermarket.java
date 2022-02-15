@@ -1,8 +1,13 @@
 package com.example.demo;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.provider.MediaStore;
+import android.view.View;
+import android.widget.ImageView;
+
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,6 +21,10 @@ public class Supermarket extends AppCompatActivity {
         //Supermarket -> 打开相机
         Button MTGTCamera = findViewById(R.id.b_market_take_photo); //定位Button: b_market_take_photo
         //功能未做-不会做
+        MTGTCamera.setOnClickListener(v -> {
+            Intent intent=new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+            startActivity(intent);
+        });
 
         //Supermarket -> 打开语音输入键盘
         Button MTGTVoiceKeyboard = findViewById(R.id.b_market_voice_input); //定位Button: b_market_voice_input
