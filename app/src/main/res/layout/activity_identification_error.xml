@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Linear Layout 完成设计-->
+<!--背景色设置为 #FFFFFF-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IdentificationError"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dp_5">
+
+        <!--字体(font family)未设-->
+        <!--字颜色暂设 #000000-->
+        <TextView
+            android:id="@+id/identification_error_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="@dimen/dp_35"
+            android:text="@string/b_fail_to_read"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="@dimen/sp_24" />
+
+    </LinearLayout>
+
+</LinearLayout>
