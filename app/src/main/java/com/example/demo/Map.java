@@ -18,13 +18,6 @@ import com.baidu.location.LocationClientOption;
 import com.baidu.mapapi.SDKInitializer;
 import com.baidu.mapapi.map.BaiduMap;
 import com.baidu.mapapi.map.MapView;
-import com.baidu.mapapi.search.poi.OnGetPoiSearchResultListener;
-import com.baidu.mapapi.search.poi.PoiCitySearchOption;
-import com.baidu.mapapi.search.poi.PoiDetailResult;
-import com.baidu.mapapi.search.poi.PoiDetailSearchResult;
-import com.baidu.mapapi.search.poi.PoiIndoorResult;
-import com.baidu.mapapi.search.poi.PoiResult;
-import com.baidu.mapapi.search.poi.PoiSearch;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,7 +27,6 @@ public class Map extends AppCompatActivity {
     LocationClient mLocationClient;
     MapView mMapView;
     BaiduMap mBaiduMap = null;
-    PoiSearch mPoiSearch;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,13 +45,6 @@ public class Map extends AppCompatActivity {
         mBaiduMap.setMapType(BaiduMap.MAP_TYPE_NORMAL);
         mBaiduMap.setMyLocationEnabled(true);
         mBaiduMap.setIndoorEnable(true);
-
-        mPoiSearch.setOnGetPoiSearchResultListener(listener);
-        mPoiSearch.searchInCity(new PoiCitySearchOption()
-                .city("北京") //必填
-                .keyword("美食") //必填
-                .pageNum(0));
-        mPoiSearch.destroy();
 
         List<String> permissionList = new ArrayList<>();
         if(ContextCompat.checkSelfPermission(Map.this,Manifest.permission.ACCESS_FINE_LOCATION)!= PackageManager.PERMISSION_GRANTED){
@@ -123,24 +108,5 @@ public class Map extends AppCompatActivity {
         public void onReceiveLocation(BDLocation location) {
         }
     }
-    OnGetPoiSearchResultListener listener = new OnGetPoiSearchResultListener() {
-        @Override
-        public void onGetPoiResult(PoiResult poiResult) {
-
-        }
-        @Override
-        public void onGetPoiDetailResult(PoiDetailSearchResult poiDetailSearchResult) {
-
-        }
-        @Override
-        public void onGetPoiIndoorResult(PoiIndoorResult poiIndoorResult) {
-
-        }
-        //废弃
-        @Override
-        public void onGetPoiDetailResult(PoiDetailResult poiDetailResult) {
-
-        }
-    };
 
 }
