@@ -98,26 +98,41 @@
             android:layout_height="@dimen/dp_40"
             android:paddingBottom="@dimen/dp_10">
 
-            <!--字体(font family)未设-->
-            <TextView
-                android:id="@+id/confirm_market_from_1"
-                android:layout_width="@dimen/dp_50"
-                android:layout_height="match_parent"
-                android:height="@dimen/dp_25"
-                android:drawableLeft="@drawable/ring1"
-                android:text="@string/from"
-                android:textAlignment="center"
-                android:textColor="#71838F"
-                android:textSize="@dimen/sp_16" />
+            <RelativeLayout
+                android:layout_width="@dimen/dp_65"
+                android:layout_height="@dimen/dp_40">
+
+                <TextView
+                    android:id="@+id/confirm_market_from_1_1"
+                    android:layout_width="@dimen/dp_20"
+                    android:layout_height="match_parent"
+                    android:height="@dimen/dp_25"
+                    android:drawableLeft="@drawable/ring1" />
+
+                <!--字体(font family)未设-->
+                <TextView
+                    android:id="@+id/confirm_market_from_1"
+                    android:layout_width="@dimen/dp_45"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:height="@dimen/dp_25"
+                    android:paddingTop="@dimen/dp_3"
+                    android:text="@string/from"
+                    android:textAlignment="center"
+                    android:textColor="#71838F"
+                    android:textSize="@dimen/sp_16" />
+
+            </RelativeLayout>
 
             <!--字(text)未设：动态-->
             <!--字体(font family)未设-->
             <TextView
                 android:id="@+id/confirm_market_starting_point_1"
-                android:layout_width="@dimen/dp_180"
+                android:layout_width="@dimen/dp_160"
                 android:layout_height="match_parent"
                 android:layout_alignParentRight="true"
                 android:height="@dimen/dp_30"
+                android:paddingTop="@dimen/dp_3"
                 android:text=" "
                 android:textAlignment="center"
                 android:textColor="#71838F"
@@ -130,26 +145,41 @@
             android:layout_height="@dimen/dp_40"
             android:paddingBottom="@dimen/dp_10">
 
-            <!--字体(font family)未设-->
-            <TextView
-                android:id="@+id/confirm_market_to_1"
-                android:layout_width="@dimen/dp_50"
-                android:layout_height="match_parent"
-                android:height="@dimen/dp_30"
-                android:drawableLeft="@drawable/ring2"
-                android:text="@string/to"
-                android:textAlignment="center"
-                android:textColor="#71838F"
-                android:textSize="@dimen/sp_16" />
+            <RelativeLayout
+                android:layout_width="@dimen/dp_65"
+                android:layout_height="@dimen/dp_40">
+
+                <TextView
+                    android:id="@+id/confirm_market_to_1_1"
+                    android:layout_width="@dimen/dp_20"
+                    android:layout_height="match_parent"
+                    android:height="@dimen/dp_25"
+                    android:drawableLeft="@drawable/ring2" />
+
+                <!--字体(font family)未设-->
+                <TextView
+                    android:id="@+id/confirm_market_to_1"
+                    android:layout_width="@dimen/dp_45"
+                    android:layout_height="match_parent"
+                    android:paddingTop="@dimen/dp_3"
+                    android:layout_alignParentRight="true"
+                    android:height="@dimen/dp_25"
+                    android:text="@string/to"
+                    android:textAlignment="center"
+                    android:textColor="#71838F"
+                    android:textSize="@dimen/sp_16" />
+
+            </RelativeLayout>
 
             <!--字(text)未设：动态-->
             <!--字体(font family)未设-->
             <TextView
                 android:id="@+id/confirm_market_destination_1"
-                android:layout_width="@dimen/dp_180"
+                android:layout_width="@dimen/dp_160"
                 android:layout_height="match_parent"
                 android:layout_alignParentRight="true"
                 android:height="@dimen/dp_25"
+                android:paddingTop="@dimen/dp_3"
                 android:text=" "
                 android:textAlignment="center"
                 android:textColor="#71838F"
@@ -211,26 +241,41 @@
             android:layout_height="@dimen/dp_40"
             android:paddingBottom="@dimen/dp_10">
 
-            <!--字体(font family)未设-->
-            <TextView
-                android:id="@+id/confirm_market_from_2"
-                android:layout_width="@dimen/dp_50"
-                android:layout_height="match_parent"
-                android:height="@dimen/dp_25"
-                android:drawableLeft="@drawable/ring1"
-                android:text="@string/from"
-                android:textAlignment="center"
-                android:textColor="#71838F"
-                android:textSize="@dimen/sp_16" />
+            <RelativeLayout
+                android:layout_width="@dimen/dp_65"
+                android:layout_height="@dimen/dp_40">
+
+                <TextView
+                    android:id="@+id/confirm_market_from_2_2"
+                    android:layout_width="@dimen/dp_20"
+                    android:layout_height="match_parent"
+                    android:height="@dimen/dp_25"
+                    android:drawableLeft="@drawable/ring1" />
+
+                <!--字体(font family)未设-->
+                <TextView
+                    android:id="@+id/confirm_market_from_2"
+                    android:layout_width="@dimen/dp_45"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:paddingTop="@dimen/dp_3"
+                    android:height="@dimen/dp_25"
+                    android:text="@string/from"
+                    android:textAlignment="center"
+                    android:textColor="#71838F"
+                    android:textSize="@dimen/sp_16" />
+
+            </RelativeLayout>
 
             <!--字(text)未设：动态-->
             <!--字体(font family)未设-->
             <TextView
                 android:id="@+id/confirm_market_starting_point_2"
-                android:layout_width="@dimen/dp_180"
+                android:layout_width="@dimen/dp_160"
                 android:layout_height="match_parent"
                 android:layout_alignParentRight="true"
                 android:height="@dimen/dp_30"
+                android:paddingTop="@dimen/dp_3"
                 android:text=" "
                 android:textAlignment="center"
                 android:textColor="#71838F"
@@ -243,26 +288,41 @@
             android:layout_height="@dimen/dp_40"
             android:paddingBottom="@dimen/dp_10">
 
-            <!--字体(font family)未设-->
-            <TextView
-                android:id="@+id/confirm_market_to_2"
-                android:layout_width="@dimen/dp_50"
-                android:layout_height="match_parent"
-                android:height="@dimen/dp_30"
-                android:drawableLeft="@drawable/ring2"
-                android:text="@string/to"
-                android:textAlignment="center"
-                android:textColor="#71838F"
-                android:textSize="@dimen/sp_16" />
+            <RelativeLayout
+                android:layout_width="@dimen/dp_65"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/confirm_market_to_2_2"
+                    android:layout_width="@dimen/dp_20"
+                    android:layout_height="match_parent"
+                    android:height="@dimen/dp_30"
+                    android:drawableLeft="@drawable/ring2" />
+
+                <!--字体(font family)未设-->
+                <TextView
+                    android:id="@+id/confirm_market_to_2"
+                    android:layout_width="@dimen/dp_45"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:paddingTop="@dimen/dp_3"
+                    android:height="@dimen/dp_30"
+                    android:text="@string/to"
+                    android:textAlignment="center"
+                    android:textColor="#71838F"
+                    android:textSize="@dimen/sp_16" />
+
+            </RelativeLayout>
 
             <!--字(text)未设：动态-->
             <!--字体(font family)未设-->
             <TextView
                 android:id="@+id/confirm_market_destination_2"
-                android:layout_width="@dimen/dp_180"
+                android:layout_width="@dimen/dp_160"
                 android:layout_height="match_parent"
                 android:layout_alignParentRight="true"
                 android:height="@dimen/dp_25"
+                android:paddingTop="@dimen/dp_3"
                 android:text=" "
                 android:textAlignment="center"
                 android:textColor="#71838F"

@@ -58,19 +58,34 @@
         android:paddingRight="@dimen/dp_15"
         android:paddingBottom="@dimen/dp_5">
 
-        <!--字体(font family)未设-->
-        <TextView
-            android:id="@+id/market_starting_point"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/dp_45"
-            android:height="@dimen/dp_25"
-            android:drawableLeft="@drawable/point"
-            android:paddingLeft="@dimen/dp_20"
-            android:paddingBottom="@dimen/dp_20"
-            android:text="@string/starting_point"
-            android:textAlignment="textStart"
-            android:textColor="#71838F"
-            android:textSize="@dimen/sp_20" />
+            android:layout_height="@dimen/dp_45">
+
+            <TextView
+                android:id="@+id/market_starting_point_1"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="match_parent"
+                android:height="@dimen/dp_25"
+                android:paddingTop="@dimen/dp_3"
+                android:paddingLeft="@dimen/dp_20"
+                android:paddingBottom="@dimen/dp_17"
+                android:drawableLeft="@drawable/point" />
+
+            <!--字体(font family)未设-->
+            <TextView
+                android:id="@+id/market_starting_point"
+                android:layout_width="@dimen/dp_260"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:height="@dimen/dp_25"
+                android:paddingBottom="@dimen/dp_20"
+                android:text="@string/starting_point"
+                android:textAlignment="textStart"
+                android:textColor="#71838F"
+                android:textSize="@dimen/sp_20" />
+
+        </RelativeLayout>
 
         <!--RelativeLayout 为了按钮排版-->
         <RelativeLayout
@@ -117,19 +132,34 @@
         android:paddingRight="@dimen/dp_15"
         android:paddingBottom="@dimen/dp_75">
 
-        <!--字体(font family)未设-->
-        <TextView
-            android:id="@+id/market_destination"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/dp_45"
-            android:height="@dimen/dp_25"
-            android:paddingBottom="@dimen/dp_20"
-            android:paddingLeft="@dimen/dp_20"
-            android:drawableLeft="@drawable/point2"
-            android:text="@string/destination"
-            android:textAlignment="textStart"
-            android:textColor="#71838F"
-            android:textSize="@dimen/sp_20" />
+            android:layout_height="@dimen/dp_45">
+
+            <TextView
+                android:id="@+id/market_destination_1"
+                android:layout_width="@dimen/dp_40"
+                android:layout_height="match_parent"
+                android:height="@dimen/dp_25"
+                android:paddingTop="@dimen/dp_3"
+                android:paddingLeft="@dimen/dp_20"
+                android:paddingBottom="@dimen/dp_17"
+                android:drawableLeft="@drawable/point2" />
+
+            <!--字体(font family)未设-->
+            <TextView
+                android:id="@+id/market_destination"
+                android:layout_width="@dimen/dp_260"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:height="@dimen/dp_25"
+                android:paddingBottom="@dimen/dp_20"
+                android:text="@string/destination"
+                android:textAlignment="textStart"
+                android:textColor="#71838F"
+                android:textSize="@dimen/sp_20" />
+
+        </RelativeLayout>
 
         <!--RelativeLayout 为了按钮排版-->
         <RelativeLayout
