@@ -12,7 +12,6 @@ public class IdentificationError extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_identification_error);
-        getSupportActionBar().hide();
 
         //跳转到?页面
         Button SettingBack2 = findViewById(R.id.b_setting_back2); //定位Button: b_setting_back2

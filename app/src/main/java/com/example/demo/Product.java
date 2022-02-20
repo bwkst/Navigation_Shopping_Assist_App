@@ -19,7 +19,6 @@ public class Product extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_product);
-        getSupportActionBar().hide();
 
         //Product -> 打开相机
         Button PGTCamera = findViewById(R.id.b_product_taking_photo); //定位Button: b_market_take_photo

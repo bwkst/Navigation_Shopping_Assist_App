@@ -13,6 +13,7 @@ public class ContactForSupport extends AppCompatActivity {
 
     private TextView textView1;
     private TextView textView2;
+    private Button SettingBack3;
 
     private String mailAdress = "test@gmail.com";//收信邮箱，虚拟
     private String phone = "13322224444";//虚拟电话
@@ -21,7 +22,7 @@ public class ContactForSupport extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact_for_support);
-        getSupportActionBar().hide();
+
 
         //发送邮件
         textView1 = (TextView) findViewById(R.id.text_mail_contact);
@@ -58,7 +59,7 @@ public class ContactForSupport extends AppCompatActivity {
         });
 
         //跳转到?页面
-        Button SettingBack3 = findViewById(R.id.b_setting_back3); //定位Button: b_setting_back2
+        Button SettingBack3 = findViewById(R.id.b_setting_back3); //定位Button: b_setting_back3
         SettingBack3.setOnClickListener(v -> {
             Intent intent = new Intent();
             intent.setClass(ContactForSupport.this, SettingAndHelp.class); //跳转至SettingAndHelp

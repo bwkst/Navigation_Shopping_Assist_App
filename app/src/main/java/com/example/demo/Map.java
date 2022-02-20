@@ -33,7 +33,6 @@ public class Map extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         SDKInitializer.initialize(getApplicationContext());
         setContentView(R.layout.activity_map);
-        getSupportActionBar().hide();
 
         locationInfo = findViewById(R.id.locationInfo);
 

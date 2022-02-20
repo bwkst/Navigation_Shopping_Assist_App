@@ -38,7 +38,6 @@ public class ShoppingMall extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shopping_mall);
-        getSupportActionBar().hide();
 
         //ShoppingMall -> 打开相机
         Button MLGTCamera = findViewById(R.id.b_mall_take_photo); //定位Button: b_mall_take_photo
