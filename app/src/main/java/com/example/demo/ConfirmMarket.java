@@ -12,7 +12,6 @@ public class ConfirmMarket extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confirm_market);
-        getSupportActionBar().hide();
 
         //Confirm Market -> 取确认结果1 -> 提交后台 -> Go To Page: OutputMarket
         Button CMTGTOutputMarketPage_1 = findViewById(R.id.b_confirm_market_1); //定位Button: b_confirm_market_1

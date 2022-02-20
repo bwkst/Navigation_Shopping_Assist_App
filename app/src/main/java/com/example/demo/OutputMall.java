@@ -12,7 +12,6 @@ public class OutputMall extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_output_mall);
-        getSupportActionBar().hide();
 
         //Output Mall -> Go To Page: MainActivity
         Button OMLGTMainPage = findViewById(R.id.b_end_mall); //定位Button: b_end_mall

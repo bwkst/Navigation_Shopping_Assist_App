@@ -38,7 +38,6 @@ public class ShoppingMall extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shopping_mall);
-        getSupportActionBar().hide();
 
         //ShoppingMall -> 打开相机
         Button MLGTCamera = findViewById(R.id.b_mall_take_photo); //定位Button: b_mall_take_photo
@@ -52,7 +51,7 @@ public class ShoppingMall extends AppCompatActivity {
         //ShoppingMall -> 打开语音输入键盘
         Button MLGTVoiceKeyboard = findViewById(R.id.b_mall_voice_input); //定位Button: b_mall_voice_input
         TextView MLGVoiceResult = findViewById(R.id.mall_destination_box);//定位TextView：mall_destination_box
-        /**语音听写功能实现**/
+        /***语音听写功能实现***/
         // 语音配置对象初始化
         SpeechUtility.createUtility(ShoppingMall.this, SpeechConstant.APPID + "=f66cb08c");
         MLGTVoiceKeyboard.setOnClickListener(new OnClickListener() {

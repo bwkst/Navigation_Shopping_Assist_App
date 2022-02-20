@@ -15,18 +15,10 @@
         <entry key="..\:/Users/Kristine/Desktop/BUPT/Project/Code/Navigation_Shopping_Assist_App/app/src/main/res/layout/activity_suggestion.xml" value="0.1" />
         <entry key="..\:/Users/Kristine/Desktop/BUPT/Project/Code/Navigation_Shopping_Assist_App/app/src/main/res/layout/activity_supermarket.xml" value="0.1" />
         <entry key="..\:/Users/Kristine/Desktop/BUPT/Project/Code/Navigation_Shopping_Assist_App/app/src/main/res/layout/ifly_layout_mnotice_image.xml" value="0.14855072463768115" />
-        <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/drawable/b_mall.xml" value="0.29583333333333334" />
-        <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/drawable/b_product.xml" value="0.29583333333333334" />
-        <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/drawable/textviewshape.xml" value="0.29583333333333334" />
-        <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/drawable/textviewshape2.xml" value="0.29583333333333334" />
-        <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/drawable/textviewshape3.xml" value="0.29583333333333334" />
-        <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/layout/activity_contact_for_support.xml" value="0.2857142857142857" />
-        <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/layout/activity_identification_error.xml" value="0.2857142857142857" />
         <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/layout/activity_map.xml" value="0.21875" />
-        <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/layout/activity_setting_and_help.xml" value="0.3828571428571429" />
+        <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/layout/activity_setting_and_help.xml" value="0.2857142857142857" />
         <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/layout/activity_shopping_mall.xml" value="0.2171875" />
-        <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/layout/activity_suggestion.xml" value="0.24048913043478262" />
         <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/layout/activity_supermarket.xml" value="0.21875" />
         <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/layout/ifly_layout_mnotice_image.xml" value="0.2171875" />
         <entry key="..\:/bwkst/Navigation_Shopping_Assist_App-main/Navigation_Shopping_Assist_App-main/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.11979166666666667" />
@@ -63,7 +55,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
