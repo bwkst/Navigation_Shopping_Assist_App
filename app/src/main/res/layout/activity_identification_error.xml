@@ -55,7 +55,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_110"
-            android:background="@drawable/textviewshape2"
+            android:background="@drawable/text_view_shape_2"
             android:padding="@dimen/dp_12"
             android:text="当前位置无法识别\n此处需商议解决方案，文本框高度可后期调节"
             android:textSize="@dimen/sp_16"
@@ -73,7 +73,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_110"
-            android:background="@drawable/textviewshape2"
+            android:background="@drawable/text_view_shape_2"
             android:padding="@dimen/dp_12"
             android:text="同上"
             android:textSize="@dimen/sp_16"
