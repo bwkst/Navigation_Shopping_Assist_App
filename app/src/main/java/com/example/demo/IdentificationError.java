@@ -6,15 +6,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
-import java.util.Objects;
-
 public class IdentificationError extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_identification_error);
-        Objects.requireNonNull(getSupportActionBar()).hide();
+        getSupportActionBar().hide();
 
         //跳转到?页面
         Button SettingBack2 = findViewById(R.id.b_setting_back2); //定位Button: b_setting_back2
