@@ -12,6 +12,7 @@ public class SettingAndHelp extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting_and_help);
+        getSupportActionBar().hide();
 
         //选中后 -> 语速为慢
         Button slowSpeed = findViewById(R.id.b_slow); //定位Button: b_slow

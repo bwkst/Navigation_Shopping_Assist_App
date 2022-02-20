@@ -40,6 +40,7 @@ public class Supermarket extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_supermarket);
+        getSupportActionBar().hide();
 
         //Supermarket -> 打开相机
         Button MTGTCamera = findViewById(R.id.b_market_take_photo); //定位Button: b_market_take_photo

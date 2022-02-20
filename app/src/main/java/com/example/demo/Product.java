@@ -12,6 +12,7 @@ public class Product extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_product);
+        getSupportActionBar().hide();
 
         //Product -> Go To Page: MainActivity
         Button PGTMainPage = findViewById(R.id.b_product_back); //定位Button: b_product_back

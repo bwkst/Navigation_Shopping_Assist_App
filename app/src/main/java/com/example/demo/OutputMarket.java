@@ -12,6 +12,7 @@ public class OutputMarket extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_output_market);
+        getSupportActionBar().hide();
 
         //Output Market -> Go To Page: MainActivity
         Button OMTGTMainPage = findViewById(R.id.b_end_market); //定位Button: b_end_market
