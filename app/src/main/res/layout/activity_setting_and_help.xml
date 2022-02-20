@@ -9,7 +9,7 @@
     tools:context=".SettingAndHelp"
     android:background="#FFFFFF"
     android:orientation="vertical"
-    android:padding="@dimen/dp_5">
+    android:padding="@dimen/dp_10">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -115,10 +115,10 @@
 
             <!--按钮样式(background)未设 应存于drawable-->
             <Button
+                android:id="@+id/b_slow"
                 android:layout_width="@dimen/dp_20"
                 android:layout_height="@dimen/dp_20"
-                android:id="@+id/b_slow"
-                android:height="@dimen/dp_20"/>
+                android:height="@dimen/dp_20" />
 
             <!--字体(font family)未设-->
             <!--字颜色暂设 #000000-->
@@ -406,9 +406,9 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_10"
+        android:layout_height="@dimen/dp_16"
         android:orientation="vertical"
-        android:paddingTop="@dimen/dp_5"
+        android:paddingTop="@dimen/dp_11"
         android:paddingBottom="@dimen/dp_4"
         android:paddingLeft="@dimen/dp_20"
         android:paddingRight="@dimen/dp_20">
@@ -425,7 +425,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_55"
         android:orientation="vertical"
-        android:paddingTop="@dimen/dp_5"
+        android:paddingTop="@dimen/dp_8"
         android:paddingBottom="@dimen/dp_5"
         android:paddingLeft="@dimen/dp_80"
         android:paddingRight="@dimen/dp_80">
