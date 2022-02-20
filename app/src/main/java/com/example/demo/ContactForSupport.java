@@ -11,29 +11,19 @@ import android.widget.TextView;
 
 public class ContactForSupport extends AppCompatActivity {
 
-<<<<<<< Updated upstream
     private TextView textView1;
     private TextView textView2;
     private Button SettingBack3;
 
     private String mailAdress = "test@gmail.com";//收信邮箱，虚拟
     private String phone = "13322224444";//虚拟电话
-=======
-    //private final String mailAddress = "test@gmail.com";//收信邮箱，虚拟
-    //private final String phone = "13322224444";//虚拟电话
->>>>>>> Stashed changes
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact_for_support);
-<<<<<<< Updated upstream
 
 
-=======
-        Objects.requireNonNull(getSupportActionBar()).hide();
-/**
->>>>>>> Stashed changes
         //发送邮件
         textView1 = (TextView) findViewById(R.id.text_mail_contact);
         textView1.setOnClickListener(new View.OnClickListener() {
@@ -67,7 +57,6 @@ public class ContactForSupport extends AppCompatActivity {
                 startActivity(intent);
             }
         });
- **/
 
         //跳转到?页面
         Button SettingBack3 = findViewById(R.id.b_setting_back3); //定位Button: b_setting_back3

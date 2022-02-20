@@ -28,7 +28,6 @@
         <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/layout/activity_identification_error.xml" value="0.2857142857142857" />
         <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/layout/activity_map.xml" value="0.21875" />
-        <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/layout/activity_product.xml" value="0.1859375" />
         <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/layout/activity_setting_and_help.xml" value="0.3828571428571429" />
         <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/layout/activity_shopping_mall.xml" value="0.2171875" />
         <entry key="..\:/Users/zong0/Desktop/new/Navigation_Shopping_Assist_App/app/src/main/res/layout/activity_suggestion.xml" value="0.24048913043478262" />
@@ -68,7 +67,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
