@@ -21,7 +21,6 @@ public class Product extends AppCompatActivity {
 
         //Product -> 打开相机
         Button PGTCamera = findViewById(R.id.b_product_taking_photo); //定位Button: b_product_take_photo
-        //功能未做-不会做
         PGTCamera.setOnClickListener(v -> {
             Intent intent=new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
             startActivity(intent);
