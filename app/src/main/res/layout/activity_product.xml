@@ -111,7 +111,7 @@
             android:paddingTop="@dimen/dp_5"
             android:id="@+id/p_details"
             android:height="@dimen/dp_170"
-            android:text=" 123"
+            android:text=" "
             android:textAlignment="center"
             android:textColor="#71838F"
             android:textSize="@dimen/sp_18"/>

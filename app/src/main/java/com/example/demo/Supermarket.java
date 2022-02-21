@@ -43,7 +43,6 @@ public class Supermarket extends AppCompatActivity {
 
         //Supermarket -> 打开相机
         Button MTGTCamera = findViewById(R.id.b_market_take_photo); //定位Button: b_market_take_photo
-        //功能未做-不会做
         MTGTCamera.setOnClickListener(v -> {
             Intent intent=new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
             startActivity(intent);

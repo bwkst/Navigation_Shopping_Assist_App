@@ -27,6 +27,12 @@ import com.iflytek.cloud.ui.RecognizerDialogListener;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
+import android.content.Intent;
+import android.provider.MediaStore;
+import android.view.View;
+import android.widget.ImageView;
+
 public class ShoppingMall extends AppCompatActivity {
 
     //存放听写分析结果文本
@@ -41,10 +47,8 @@ public class ShoppingMall extends AppCompatActivity {
 
         //ShoppingMall -> 打开相机
         Button MLGTCamera = findViewById(R.id.b_mall_take_photo); //定位Button: b_mall_take_photo
-        //功能未做-不会做
         MLGTCamera.setOnClickListener(v -> {
-            Intent intent=new Intent();
-            intent.setClass(ShoppingMall.this,Map.class); //跳转至Map
+            Intent intent=new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
             startActivity(intent);
         });
 
