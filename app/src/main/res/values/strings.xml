@@ -30,6 +30,8 @@
     <string name="b_suggestion">反馈建议</string>
     <string name="b_customer_service">联系客服</string>
     <string name="b_update">版本与更新</string>
+    <string name="mail_click">点击使用邮箱发送\n请耐心等待邮件回复~</string>
+    <string name="phone_call_click">点击使用电话拨打</string>
 
     <!-- 请替换成在语音云官网申请的appid -->
     <string name="app_id">f66cb08c</string>
@@ -138,7 +140,7 @@
         <item>4</item>
         <item>5</item>
     </string-array>
-    <string formatted="false" name="tts_toast_format">缓冲进度为%d%%，播放进度为%d%%</string>
+    <string name="tts_toast_format" formatted="false">缓冲进度为%d%%，播放进度为%d%%</string>
     <!-- 语言 -->
     <string-array name="language_entries">
         <item>普通话</item>
