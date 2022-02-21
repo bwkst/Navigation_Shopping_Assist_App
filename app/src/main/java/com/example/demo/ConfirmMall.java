@@ -12,7 +12,6 @@ public class ConfirmMall extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confirm_mall);
-    //    getSupportActionBar().hide();
 
         //Confirm Mall -> 取确认结果1 -> 提交后台 -> Go To Page: OutputMall
         Button CMLGTOutputMallPage_1 = findViewById(R.id.b_confirm_mall_1); //定位Button: b_confirm_mall_1
@@ -25,13 +24,10 @@ public class ConfirmMall extends AppCompatActivity {
 
         //Confirm Mall -> 取确认结果2 -> 提交后台 -> Go To Page: OutputMall
         Button CMLGTOutputMallPage_2 = findViewById(R.id.b_confirm_mall_2); //定位Button: b_confirm_mall_2
-        //功能未做: 取确认结果2 -> 提交后台
+        //功能未做: 取确认结果1 -> 提交后台
         CMLGTOutputMallPage_2.setOnClickListener(v -> {
-            //Intent intent=new Intent();
-            //intent.setClass(ConfirmMall.this,OutputMall.class); //跳转至OutputMall
-            //startActivity(intent);
             Intent intent=new Intent();
-            intent.setClass(ConfirmMall.this,Map.class); //跳转至Map
+            intent.setClass(ConfirmMall.this,OutputMall.class); //跳转至OutputMall
             startActivity(intent);
         });
 
