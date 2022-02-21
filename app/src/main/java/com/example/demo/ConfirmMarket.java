@@ -25,7 +25,7 @@ public class ConfirmMarket extends AppCompatActivity {
 
         //Confirm Market -> 取确认结果2 -> 提交后台 -> Go To Page: OutputMarket
         Button CMTGTOutputMarketPage_2 = findViewById(R.id.b_confirm_market_2); //定位Button: b_confirm_market_2
-        //功能未做: 取确认结果2 -> 提交后台
+        //功能未做: 取确认结果1 -> 提交后台
         CMTGTOutputMarketPage_2.setOnClickListener(v -> {
             Intent intent=new Intent();
             intent.setClass(ConfirmMarket.this,OutputMarket.class); //跳转至OutputMarket
