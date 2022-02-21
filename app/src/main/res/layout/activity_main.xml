@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--Linear Layout 完成设计-->
-<!--背景色暂设置为 #FFFFFF-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#FFFFFF"
+    android:background="#E8EADC"
     android:orientation="vertical"
-    android:padding="@dimen/dp_5">
+    android:paddingLeft="@dimen/dp_5"
+    android:paddingRight="@dimen/dp_5"
+    android:paddingTop="@dimen/dp_20">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,7 +20,6 @@
         android:paddingBottom="@dimen/dp_20">
 
         <!--字体(font family)未设-->
-        <!--字颜色暂设 #000000-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -28,22 +28,20 @@
             android:text="@string/app_name"
             android:fontFamily=""
             android:textAlignment="center"
-            android:textColor="#000000"
+            android:textColor="#71838F"
             android:textSize="@dimen/sp_48"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_80"
+        android:layout_height="@dimen/dp_95"
         android:orientation="vertical"
-        android:paddingTop="@dimen/dp_20"
-        android:paddingRight="@dimen/dp_30"
-        android:paddingLeft="@dimen/dp_30">
+        android:paddingTop="@dimen/dp_25"
+        android:paddingRight="@dimen/dp_60"
+        android:paddingLeft="@dimen/dp_60">
 
-        <!--按钮样式(background)存于drawable,本页按钮均沿袭此样式-->
         <!--字体(font family)未设-->
-        <!--字颜色暂设 #000000-->
         <Button
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_60"
@@ -51,22 +49,20 @@
             android:background="@drawable/b_mall"
             android:text="@string/b_mall"
             android:textAlignment="center"
-            android:textColor="#000000"
+            android:textColor="#71838F"
             android:textSize="@dimen/sp_25"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_80"
+        android:layout_height="@dimen/dp_95"
         android:orientation="vertical"
-        android:paddingTop="@dimen/dp_20"
-        android:paddingRight="@dimen/dp_30"
-        android:paddingLeft="@dimen/dp_30">
+        android:paddingTop="@dimen/dp_25"
+        android:paddingRight="@dimen/dp_60"
+        android:paddingLeft="@dimen/dp_60">
 
-        <!--按钮样式(background)未设 应存于drawable-->
         <!--字体(font family)未设-->
-        <!--字颜色暂设 #000000-->
         <Button
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_60"
@@ -74,22 +70,20 @@
             android:background="@drawable/b_mall"
             android:text="@string/b_market"
             android:textAlignment="center"
-            android:textColor="#000000"
+            android:textColor="#71838F"
             android:textSize="@dimen/sp_25"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_80"
+        android:layout_height="@dimen/dp_95"
         android:orientation="vertical"
-        android:paddingTop="@dimen/dp_20"
-        android:paddingRight="@dimen/dp_30"
-        android:paddingLeft="@dimen/dp_30">
+        android:paddingTop="@dimen/dp_25"
+        android:paddingRight="@dimen/dp_60"
+        android:paddingLeft="@dimen/dp_60">
 
-        <!--按钮样式(background)未设 应存于drawable-->
         <!--字体(font family)未设-->
-        <!--字颜色暂设 #000000-->
         <Button
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_60"
@@ -97,22 +91,20 @@
             android:background="@drawable/b_mall"
             android:text="@string/b_product"
             android:textAlignment="center"
-            android:textColor="#000000"
+            android:textColor="#71838F"
             android:textSize="@dimen/sp_25"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_80"
+        android:layout_height="@dimen/dp_95"
         android:orientation="vertical"
-        android:paddingTop="@dimen/dp_20"
-        android:paddingRight="@dimen/dp_30"
-        android:paddingLeft="@dimen/dp_30">
+        android:paddingTop="@dimen/dp_25"
+        android:paddingRight="@dimen/dp_60"
+        android:paddingLeft="@dimen/dp_60">
 
-        <!--按钮样式(background)未设 应存于drawable-->
         <!--字体(font family)未设-->
-        <!--字颜色暂设 #000000-->
         <Button
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp_60"
@@ -120,7 +112,7 @@
             android:background="@drawable/b_mall"
             android:text="@string/b_setting"
             android:textAlignment="center"
-            android:textColor="#000000"
+            android:textColor="#71838F"
             android:textSize="@dimen/sp_25"/>
 
 
