@@ -35,35 +35,23 @@ public class SettingAndHelp extends AppCompatActivity {
 
         //选中后 -> 调出“摄像头权限” (?)
         Button failToRead = findViewById(R.id.b_fail_to_read); //定位Button: b_fail_to_read
-        failToRead.setOnClickListener(v -> {
-            Intent intent=new Intent();
-            intent.setClass(SettingAndHelp.this,IdentificationError.class); //跳转至MainActivity
-            startActivity(intent);
-        });
+        //功能未做-不会做
 
         //跳转到?页面
         Button suggestion = findViewById(R.id.b_suggestion); //定位Button: b_suggestion
-        suggestion.setOnClickListener(v -> {
-            Intent intent=new Intent();
-            intent.setClass(SettingAndHelp.this,Suggestion.class); //跳转至MainActivity
-            startActivity(intent);
-        });
+        //功能未做-不会做
 
         //跳转到?页面
         Button customerService = findViewById(R.id.b_customer_service); //定位Button: b_customer_service
-        customerService.setOnClickListener(v -> {
-            Intent intent=new Intent();
-            intent.setClass(SettingAndHelp.this,ContactForSupport.class); //跳转至MainActivity
-            startActivity(intent);
-        });
+        //功能未做-不会做
 
         //检查更新
         Button update = findViewById(R.id.b_update); //定位Button: b_update
         //功能未做-不会做
 
         //目前：返回主页面 期望：返回到跳转到此页面的页面（标记？）
-        Button settingBack = findViewById(R.id.b_setting_back); //定位Button: b_setting_back
-        settingBack.setOnClickListener(v -> {
+        Button back = findViewById(R.id.b_setting_back); //定位Button: b_setting_back
+        back.setOnClickListener(v -> {
             Intent intent=new Intent();
             intent.setClass(SettingAndHelp.this,MainActivity.class); //跳转至MainActivity
             startActivity(intent);

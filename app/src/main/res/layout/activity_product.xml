@@ -54,28 +54,21 @@
         android:paddingBottom="@dimen/dp_10">
 
         <!--拍照区域-->
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/b_product_taking_photo">
-
-            <ImageView
-                android:id="@+id/camera"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/dp_150"
-                android:background="@drawable/camera"
-                android:src="@drawable/camera_pic"
-                android:scaleType="fitCenter"
-                />
-
-        </Button>
+<ImageView
+    android:id="@+id/camera"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_150"
+    android:background="@drawable/camera"
+    android:src="@drawable/camera_pic"
+    android:scaleType="fitCenter"
+    />
     </LinearLayout>
 
     <!--边框用background(drawable)-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_250"
-        android:background="@drawable/text_view_shape"
+        android:background="@drawable/textviewshape"
         android:orientation="vertical"
         android:paddingRight="@dimen/dp_15"
         android:paddingLeft="@dimen/dp_15"

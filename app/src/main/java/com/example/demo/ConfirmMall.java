@@ -12,7 +12,6 @@ public class ConfirmMall extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_confirm_mall);
-    //    getSupportActionBar().hide();
 
         //Confirm Mall -> 取确认结果1 -> 提交后台 -> Go To Page: OutputMall
         Button CMLGTOutputMallPage_1 = findViewById(R.id.b_confirm_mall_1); //定位Button: b_confirm_mall_1
