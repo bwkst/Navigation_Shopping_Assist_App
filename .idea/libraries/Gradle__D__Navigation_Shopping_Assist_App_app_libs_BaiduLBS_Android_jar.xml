@@ -1,5 +1,5 @@
 <component name="libraryTable">
-  <library name="Gradle: ./app/libs/BaiduLBS_Android.jar">
+  <library name="Gradle: D./Navigation_Shopping_Assist_App/app/libs/BaiduLBS_Android.jar">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/app/libs/BaiduLBS_Android.jar!/" />
     </CLASSES>

@@ -32,6 +32,12 @@
     <string name="b_update">版本与更新</string>
     <string name="mail_click">点击使用邮箱发送\n请耐心等待邮件回复~</string>
     <string name="phone_call_click">点击使用电话拨打</string>
+    <string name="common_problem">常见问题</string>
+    <string name="quention_one">1、如何识别当前位置？\n&#160;&#160;&#8201;&#160;&#160;&#8201;点击当前位置中的拍照识别，打开相机，点击拍照，确认后即可完成当前位置识别。</string>
+    <string name="quention_two">2、拍照识别无法识别当前位置怎么办？\n&#160;&#160;&#8201;&#160;&#160;&#8201;可以换一个角度进行拍照，如果依旧无法识别当前位置，可以尝试联系客服，或者发邮件进行反馈。</string>
+    <string name="quention_three">3、没有搜索到目的地怎么办？\n&#160;&#160;&#8201;&#160;&#160;&#8201;可以联系客服，或者发邮件进行反馈哦，我们会及时对软件进行更新。</string>
+    <string name="quention_four">4、为什么无法识别手上的拿着的商品？\n&#160;&#160;&#8201;&#160;&#160;&#8201;超市商品识别暂时只能识别在货架上的商品，暂时不能识别在手上的商品，请用户关注之后的版本更新哦~</string>
+
 
     <!-- 请替换成在语音云官网申请的appid -->
     <string name="app_id">f66cb08c</string>
@@ -158,6 +164,8 @@
     <string name="text_cn_syllable">"知，痴，是"</string>
     <string name="text_cn_word">"磁铁，率领，脆弱，动手，古筝"</string>
     <string name="text_cn_sentence">"一座座雪峰插入云霄，峰顶银光闪闪，大大小小的湖泊，像颗颗宝石镶嵌在彩带般的沟谷中。"</string>
+    <string name="CommonProblem">常见问题</string>
+    <string name="feedback">如果有需要反馈的话，点击下方按钮可以发送邮件</string>
     <string-array name="ise_language_entries">
         <item>英语</item>
         <item>汉语</item>
