@@ -55,17 +55,7 @@ public class SettingAndHelp extends AppCompatActivity {
             intent.setClass(SettingAndHelp.this,Suggestion.class); //跳转至MainActivity
             startActivity(intent);
         });
-
-/**
- *已不需要
-        //跳转到?页面
-        Button customerService = findViewById(R.id.b_customer_service); //定位Button: b_customer_service
-        customerService.setOnClickListener(v -> {
-            Intent intent=new Intent();
-            intent.setClass(SettingAndHelp.this,ContactForSupport.class); //跳转至MainActivity
-            startActivity(intent);
-        });
- **/
+        
 
         //跳转到拨号页面
         ContactForSupport = (Button) findViewById(R.id.b_customer_service);

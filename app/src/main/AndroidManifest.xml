@@ -34,9 +34,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Demo">
         <activity
-            android:name=".ContactForSupport"
-            android:exported="true" />
-        <activity
             android:name=".Suggestion"
             android:exported="true" />
         <activity
