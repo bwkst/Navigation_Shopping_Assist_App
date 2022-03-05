@@ -56,11 +56,11 @@
         android:paddingBottom="@dimen/dp_10">
 
         <!--拍照区域-->
-        <Button
+        <ImageButton
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/b_product_taking_photo"
-            android:background="@drawable/camera_pic" />
+            android:background="@drawable/camera_pic"/>
 
     </LinearLayout>
 
