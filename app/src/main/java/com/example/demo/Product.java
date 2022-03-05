@@ -126,7 +126,7 @@ public class Product extends AppCompatActivity {
     //跳转相机
     private void toCamera() {
         //创建File对象，用于存储拍照后的图片
-//        File outputImage = new File(getExternalCacheDir(), "outputImage.jpg");
+        //File outputImage = new File(getExternalCacheDir(), "outputImage.jpg");
         File outputImage = new File(getExternalCacheDir(), System.currentTimeMillis() + ".jpg");
         if (outputImage.exists()) {
             outputImage.delete();
