@@ -3,16 +3,13 @@ package com.example.demo;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class SettingAndHelp extends AppCompatActivity {
 
-    private Button ContactForSupport;
-
-    private String phone = "13322224444";//虚拟电话
+    private final String phone = "13322224444";//虚拟电话
 
 
     @Override
@@ -56,29 +53,16 @@ public class SettingAndHelp extends AppCompatActivity {
             startActivity(intent);
         });
 
-/**
- *已不需要
-        //跳转到?页面
-        Button customerService = findViewById(R.id.b_customer_service); //定位Button: b_customer_service
-        customerService.setOnClickListener(v -> {
-            Intent intent=new Intent();
-            intent.setClass(SettingAndHelp.this,ContactForSupport.class); //跳转至MainActivity
-            startActivity(intent);
-        });
- **/
 
         //跳转到拨号页面
-        ContactForSupport = (Button) findViewById(R.id.b_customer_service);
-        ContactForSupport.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent();
-                intent.setAction("android.intent.action.DIAL");
-                Uri uri = Uri.parse("tel:" + phone);
-                intent.setData(uri);
-                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(intent);
-            }
+        Button contactForSupport = findViewById(R.id.b_customer_service);
+        contactForSupport.setOnClickListener(v -> {
+            Intent intent = new Intent();
+            intent.setAction("android.intent.action.DIAL");
+            Uri uri = Uri.parse("tel:" + phone);
+            intent.setData(uri);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
         });
 
         //检查更新
