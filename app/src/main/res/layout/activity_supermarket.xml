@@ -101,7 +101,7 @@
                 android:height="@dimen/dp_170"
                 android:background="@drawable/b_product_2"
                 android:gravity="center"
-                android:text=" "
+                android:text="方便面专区"
                 android:textAlignment="center"
                 android:textColor="#71838F"
                 android:textSize="@dimen/sp_14" />
@@ -175,7 +175,7 @@
                 android:height="@dimen/dp_170"
                 android:background="@drawable/b_product_2"
                 android:gravity="center"
-                android:text=" "
+                android:text="饮料专区"
                 android:textAlignment="center"
                 android:textColor="#71838F"
                 android:textSize="@dimen/sp_14" />

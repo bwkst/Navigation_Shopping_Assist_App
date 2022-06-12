@@ -134,7 +134,7 @@
                 android:layout_alignParentRight="true"
                 android:height="@dimen/dp_30"
                 android:paddingTop="@dimen/dp_3"
-                android:text=" "
+                android:text="喜乐茶"
                 android:textAlignment="center"
                 android:textColor="#71838F"
                 android:textSize="@dimen/sp_14" />
@@ -180,7 +180,7 @@
                 android:layout_alignParentRight="true"
                 android:height="@dimen/dp_25"
                 android:paddingTop="@dimen/dp_3"
-                android:text=" "
+                android:text="物美超市"
                 android:textAlignment="center"
                 android:textColor="#71838F"
                 android:textSize="@dimen/sp_14" />
@@ -276,7 +276,7 @@
                 android:layout_alignParentRight="true"
                 android:height="@dimen/dp_30"
                 android:paddingTop="@dimen/dp_3"
-                android:text="helloworld"
+                android:text="喜茶"
                 android:textAlignment="center"
                 android:textColor="#71838F"
                 android:textSize="@dimen/sp_14" />
@@ -324,7 +324,7 @@
                 android:layout_alignParentRight="true"
                 android:height="@dimen/dp_25"
                 android:paddingTop="@dimen/dp_3"
-                android:text="helloworld"
+                android:text="物美超市"
                 android:textAlignment="center"
                 android:textColor="#71838F"
                 android:textSize="@dimen/sp_14" />

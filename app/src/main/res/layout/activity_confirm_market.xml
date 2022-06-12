@@ -133,7 +133,7 @@
                 android:layout_alignParentRight="true"
                 android:height="@dimen/dp_30"
                 android:paddingTop="@dimen/dp_3"
-                android:text=" "
+                android:text="方便面专区"
                 android:textAlignment="center"
                 android:textColor="#71838F"
                 android:textSize="@dimen/sp_14" />
@@ -180,7 +180,7 @@
                 android:layout_alignParentRight="true"
                 android:height="@dimen/dp_25"
                 android:paddingTop="@dimen/dp_3"
-                android:text=" "
+                android:text="饮料专区"
                 android:textAlignment="center"
                 android:textColor="#71838F"
                 android:textSize="@dimen/sp_14" />
@@ -276,7 +276,7 @@
                 android:layout_alignParentRight="true"
                 android:height="@dimen/dp_30"
                 android:paddingTop="@dimen/dp_3"
-                android:text=" "
+                android:text="面粉专区"
                 android:textAlignment="center"
                 android:textColor="#71838F"
                 android:textSize="@dimen/sp_14" />
@@ -323,7 +323,7 @@
                 android:layout_alignParentRight="true"
                 android:height="@dimen/dp_25"
                 android:paddingTop="@dimen/dp_3"
-                android:text=" "
+                android:text="饮料专区"
                 android:textAlignment="center"
                 android:textColor="#71838F"
                 android:textSize="@dimen/sp_14" />
